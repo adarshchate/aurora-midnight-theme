@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "publisher": "adarshchate",
   "license": "SEE LICENSE IN LICENSE",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -28,5 +29,9 @@
         "path": "./themes/aurora-midnight-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarshchate/aurora-midnight-theme.git"
   }
 }

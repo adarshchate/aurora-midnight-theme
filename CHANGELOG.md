@@ -1,30 +1,55 @@
 # Changelog
 
-All notable changes to Aurora Midnight will be documented in this file.
+All notable changes to Aurora Midnight are documented in this file.
+
+This project follows a version-based release history.
 
 ## [Unreleased]
 
-### Changed
+### Planned
+- Refine the color palette based on user feedback.
+- Improve syntax highlighting consistency across supported languages.
+- Review accessibility and contrast across common editor states.
+- Improve documentation and add additional theme screenshots when available.
 
-- Refined the dark workbench palette with charcoal, midnight navy, electric blue, violet, cyan, and restrained warm accents.
-- Reduced green-hued accents in the workbench UI while preserving familiar syntax-highlighting conventions.
-- Refined supported theme colors for the Activity Bar, Explorer, editor tabs, menus, Command Palette, terminal, diagnostics, and panels.
-- Aligned core TextMate and semantic highlighting colors with familiar VS Code Dark+ conventions.
-- Documented theme installation, optional typography settings, accessibility considerations, and VS Code theme API limitations.
-
-### Notes
-
-- Native workbench styling is limited to the colors and settings supported by the VS Code theme API.
-- Rounded corners, glass effects, and other structural UI changes cannot be fully implemented by a color theme alone.
-- Optional editor typography must be configured separately in VS Code settings.
-
-## [0.1.0] - YYYY-MM-DD
+## [0.1.0] - Initial Preview Release
 
 ### Added
+- Initial release of Aurora Midnight, a dark theme for Visual Studio Code.
+- Midnight navy and charcoal surfaces for a focused coding environment.
+- Electric blue primary accents with violet and cyan secondary accents.
+- Coordinated theme colors for supported workbench components.
+- TextMate token colors for syntax highlighting.
+- Semantic token colors for languages and extensions that support semantic highlighting.
+- Styling for supported editor, sidebar, tabs, panels, menus, terminal elements, and diagnostics.
+- A README with installation instructions, recommended settings, design philosophy, and troubleshooting guidance.
+- A license file and initial release documentation.
 
-- Initial public release of Aurora Midnight.
+### Changed
+- Established a consistent dark palette across supported interface elements.
+- Aligned core syntax-highlighting roles with familiar VS Code Dark+ conventions.
+- Reduced green-hued accents in the workbench UI while retaining familiar syntax colors where appropriate.
 
-### Notes
+### Documentation
+- Documented local VSIX installation and theme activation.
+- Added optional editor typography recommendations.
+- Explained the limitations of the VS Code color theme API.
+- Documented accessibility considerations and troubleshooting steps.
 
-- Replace `YYYY-MM-DD` with the actual publication date.
-- Move the changes above into this release section when version `0.1.0` is actually published.
+### Known Limitations
+- A color theme cannot independently redesign the native VS Code workbench layout.
+- Custom wallpaper and arbitrary rounded-corner styling are not available through the standard color theme API alone.
+- Syntax highlighting may vary depending on the programming language, installed extensions, and semantic highlighting support.
+- Optional editor fonts must be installed and configured separately.
+
+---
+
+## Versioning
+
+- **Patch release** (`0.1.1`): Small fixes and corrections.
+- **Minor release** (`0.2.0`): New theme improvements or additional color mappings.
+- **Major release** (`1.0.0`): A stable release milestone with a finalized initial feature set.
+
+## Release Notes
+
+Release dates should reflect the actual publication date. Update this file whenever a new version of Aurora Midnight is released.
